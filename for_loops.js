@@ -31,10 +31,6 @@ for (let listItem of itemList.children) {
 }
 
 //Homework
-
-// Example using a combination of loops to calculate and print squares of numbers
-
-// Array of numbers
 const nums = [2, 5, 8, 10];
 
 // Investigate for a method that exists on arrays, with help of which
@@ -42,16 +38,21 @@ const nums = [2, 5, 8, 10];
 // Calculate squares using a for loop and use that method to fill the squares array
 const squares = [];
 for (let i = 0; i < nums.length; i++) {
-  // add code here
+  squares.push(nums[i] * nums[i]);
 }
+console.log(squares);
 
 // Create new array, then calculate squares using a for-of loop, and fill the new array
 // Declare new var "newSquares" here and assign empty array to it here!
 for (let square of squares) {
-  // add code here
+  let newSquares = [];
+  for (let nums of newSquares) {
+    squares.push(squares * squares);
+  }
+  console.log(newSquares);
 }
 
 // Print squares using a for loop with the help of console.log
 for (let i = 0; i < newSquares.length; i++) {
-  // add code here
+  console.log(newSquares[nums]);
 }
