@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
